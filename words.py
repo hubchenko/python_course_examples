@@ -1,8 +1,13 @@
+#!/usr/bin/env python3
 '''Retrive and Print words form URL
 
 Usage:
     python3 words.py 'url'
+
+Example:
+    ./words.py 'http://sixty-north.com/c/t.txt'
 '''
+
 
 import sys
 from urllib.request import urlopen
